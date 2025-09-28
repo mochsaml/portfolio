@@ -20,3 +20,21 @@ content:
       - name: body
         label: Body
         type: rich-text
+         options:
+            toolbar:
+              - bold
+              - italic
+              - underline
+              - strike
+              - code
+              - heading
+              - bulletList
+              - orderedList
+              - blockquote
+              - table
+              - alignLeft
+              - alignCenter
+              - alignRight
+              - alignJustify
+              - link
+              - image
