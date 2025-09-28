@@ -1,0 +1,22 @@
+media:
+  input: public/media
+  output: /media
+
+content:
+  - name: posts
+    label: Blog Posts
+    type: collection
+    path: src/posts
+    filename: '{fields.title}.md'
+    view:
+      fields: [ title, date ]
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: date
+        label: Date
+        type: date
+      - name: body
+        label: Body
+        type: rich-text
