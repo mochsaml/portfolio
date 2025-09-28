@@ -1,7 +1,11 @@
+---
+title: Hello by Trial Pages CMS
+date: 2025-09-10
+---
 # src/posts/hello.md
----
-title: Hello World
-date: 2025-09-28
----
+
+* * *
+
+## title: Hello World date: 2025-09-28
 
 This is my first test post managed by PagesCMS.
